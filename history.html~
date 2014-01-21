@@ -12,7 +12,7 @@
 	  {{query.text}}
 	  <button ng-click="remove()">remove</button>
 	</li>
-	<li ng-if="!storage.hasEntries()">
+	<li ng-if="storage.hasEntries()">
 	  Nothing to display :(
 	</li>
 </ul>

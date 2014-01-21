@@ -62,9 +62,9 @@ angular.module("app", [])
 		  
 		  hasEntries: function () {
 		    if (queries.length != 0) 
-		      return true;
-		    else 
 		      return false;
+		    else 
+		      return true;
 		  }
 		}
 	});
