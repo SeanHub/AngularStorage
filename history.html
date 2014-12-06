@@ -1,8 +1,0 @@
-<input data-ng-model="history_search" type="text"/>
-<form data-ng-submit="add()">
-	<input data-ng-model="entry" type="text"/>
-	<button type="submit">add</button>
-</form>
-<ul>
-	<li data-ng-click="selected()" data-ng-repeat="query in queries | filter:history_search">{{query.text}}<button data-ng-click="remove()">remove</button></li>
-</ul>

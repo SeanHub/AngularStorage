@@ -1,0 +1,21 @@
+{
+    "name": "sm-angular-storage",
+    "version": "1.0.0",
+    "authors": [
+        "Sean McCann"
+    ],
+    "description": "Angular storage service. Stores stringified data in the browsers localStorage.",
+    "main": [
+        "src/sm.storage.js"
+    ],
+    "keywords": [
+        "angular",
+        "angularjs",
+        "localstorage",
+        "storage"
+    ],
+    "license": "MIT",
+    "dependencies": {
+        "angular": "~1"
+    }
+}

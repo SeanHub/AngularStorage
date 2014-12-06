@@ -1,0 +1,10 @@
+{
+	"author": "Sean McCann",
+	"description": "Angular storage service. Stores stringified data in the browsers localStorage.",
+	"devDependencies": {
+		"grunt-wiredep": "latest"
+	},
+	"name": "sm-angular-storage",
+	"private": true,
+	"version": "1.0.0"
+}
