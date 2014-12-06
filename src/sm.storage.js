@@ -2,8 +2,6 @@ angular.module('sm.storage', [])
 
 .factory('storage', [
     function () {
-        //add promises to each of these
-        
         var getEntry = function (key) {
             return (key ? JSON.parse(localStorage.getItem(key)) : null);
         };
