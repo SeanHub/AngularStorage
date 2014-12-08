@@ -11,7 +11,7 @@ bower install sm-angular-storage
 
 ##Usage
 
-Add sm.popup.css to your application and include sm.popup as a module dependency.
+Add sm.storage.js to your application and include sm.storage as a module dependency.
 ```javascript
 angular.module('app', ['sm.storage']);
 ``` 
